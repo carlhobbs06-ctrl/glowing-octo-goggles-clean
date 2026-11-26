@@ -15,5 +15,37 @@
     margin: 30px auto 0px auto;
     background-image: url(../juliet/image/kkk.jpg);
     background-size: cover;
+
     
+    
+    
+    
+}
+.craps-registration{
+    text-align: center;
+    margin-top: 25px;
+    
+}
+.registration-input{
+    background: none;
+    border: none;
+    border-bottom: solid white 1px;
+    margin-top: 25px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+.registration-input:focus{
+    outline: none;
+}
+.registration-continue{
+    margin-top: 25px;
+    text-align: center;
+}
+.registration-continue:hover{
+    cursor: pointer;
+    font-weight: bold;
 }

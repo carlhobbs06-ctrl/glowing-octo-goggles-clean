@@ -48,7 +48,17 @@
     </div>
     <div class="sochima" id="craps">
         <h1 id="craps-tittle">Craps Casino Game</h1>
-        <div id="craps-container"></div>
+        <div id="craps-container">
+            <div class="craps-registration">
+                Enter Username To Begin
+            </div>
+             <div>
+                <input class="registration-input">
+             </div>
+                <div class="registration-continue" onclick="registerCrapsPlayer()" id="craps-username-input">
+                    Continue
+                </div>
+        </div>
     </div>
     
 
@@ -59,6 +69,10 @@
             alert("welcom! you clicked the button");
             window.open("Dream come true.html")
         }
+
+            function registerCrapsPlayer() {
+              let crapsusername = document.getElementById("craps-username-input").value
+            }
     </script>
 </body>
 </html>
