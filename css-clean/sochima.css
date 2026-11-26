@@ -9,6 +9,7 @@ html, body {
     margin: 0%;
     padding: 0%;
     background-attachment: fixed;
+    font-family: 'Armata';
     
     
 }
@@ -26,7 +27,7 @@ html, body {
 .misc {
     width: 100vw;
     padding: 120px 25px;
-    font-family: Armata;
+    font-family: 'Armata';
     
     
 }
@@ -79,7 +80,7 @@ button {
    }
    .div1 {
     align-items: center;
-    background-image: url('../juliet/image/chi.jpg');
+    background-image: url("../juliet/image/chi.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0vw;
@@ -90,3 +91,12 @@ button {
     padding: 0px;
    }
     
+   .sochima {
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0vw;
+    width: 100vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    }

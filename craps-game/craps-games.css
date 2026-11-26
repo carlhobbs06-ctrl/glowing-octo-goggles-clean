@@ -1,0 +1,19 @@
+#craps {
+    background-image: url('../juliet/image/vegas.jpg');
+    background-position: center;
+    color: white;
+}
+#craps-tittle {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+#craps-container{
+    width: min(500px, 80vw);
+    height: min(300px, 37vw);
+    border: solid white;
+    margin: 30px auto 0px auto;
+    background-image: url(../juliet/image/kkk.jpg);
+    background-size: cover;
+    
+}
